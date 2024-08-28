@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Magra:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+
 .wrap_content{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-
 .content{
-    width: 1400px;
+    width: 1440px;
 }
 
 .header{
@@ -14,7 +17,99 @@
     height: 90px;
     background: #F2785CB2;
     box-shadow: 0px 4px 4px 0px #0D606F80;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.wrap_content_header{
+    width: 1200px;
+    height: 41px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.wrap_logo{
+    display: flex;
+    justify-content: space-between;
+    width: 216px;
+    height: 31px;
+}
+
+.wrap_nav{
+    width: 527px;
+    height: 21px;
+    padding-right: 40px;
+}
+.box_nav{
+    padding-top: 10px;
+}
+
+.nav{
+    margin: 0;
+    display: flex;
+    gap: 8.1%;
+    width: 527px;
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+.nav, li, a{
+    list-style-type: none;
+    color: rgba(255, 255, 255, 1);
+    font-family: Red Hat Text;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.17px;
+    text-align: left;
+}
+
+.box_btn_login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 103px;
+    height: 41px;
+    background: rgba(13, 96, 111, 1);
+border-radius: 10px;
+
+}
+
+.text_btn_login{
+    font-family: Red Hat Text;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.17px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+
+
+
+.logo_in_header{
+    width: 30px;
+    height: 30px;
+    background-image: url('/img/logo_prev.png');
+}
+
+.title_header{
+    width: 180px;
+    height: 31px;
+    font-family: Magra;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38.88px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+
 
 .main{
 

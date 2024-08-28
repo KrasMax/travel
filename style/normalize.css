@@ -75,6 +75,7 @@ pre {
 
 a {
   background-color: transparent;
+  text-decoration:none;
 }
 
 /**
@@ -88,10 +89,16 @@ abbr[title] {
   text-decoration: underline dotted; /* 2 */
 }
 
+p {
+  margin: 0;
+}
+
+
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
 
+ 
 b,
 strong {
   font-weight: bolder;

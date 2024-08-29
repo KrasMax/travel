@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Magra:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
 
 .wrap_content{
     display: flex;
@@ -20,6 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
 }
 
 .wrap_content_header{
@@ -85,11 +86,6 @@ border-radius: 10px;
     color: rgba(255, 255, 255, 1);
 }
 
-
-
-
-
-
 .logo_in_header{
     width: 30px;
     height: 30px;
@@ -109,9 +105,86 @@ border-radius: 10px;
 
 
 
-
-
 .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preview{
+    width: 1440px;
+    height: 765px;
+    gap: 0px;
+    opacity: 0px;
+    background-image: url('/img/prev_1440.png');
+}
+
+.box_content_preview{
+    width: 892px;
+    height: 422px;
+    margin-top: 122px;
+    margin-left: 120px;
+}
+
+.title_content_preview{
+    font-family: Aleo;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 96px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.content_preview{
+    margin-top: 30px;
+    font-family: Aleo;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.box_search{
+    width: 892px;
+    height: 95px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.7);
+    margin-top: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title_box_search{
+    width: 350px;
+    height: 22px;
+    font-family: Aleo;
+    font-size: 24px;
+    font-style: italic;
+    color: rgba(242, 120, 92, 1);
+    margin-left: 40px;
+}
+
+.box_btn_search{
+    width: 228px;
+    height: 59px;
+    border-radius: 10px;
+    background: rgba(13, 96, 111, 1);
+    margin-right: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Red Hat Text;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.75px;
+    text-align: left;
+
+    color: rgba(255, 255, 255, 1);
 
 }
 
